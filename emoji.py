@@ -4,6 +4,7 @@ print('______Beginning of Code______')
 #0 - User Input Stored
 Inp = input()
 UserInp = Inp.split
+print(UserInp)
 #1 - Make dictionary for words
 EmojiDict = { 
     'lol' : '😂', 
@@ -15,4 +16,4 @@ EmojiDict = {
 print(EmojiDict['high'])
 #2 - Replace words with emojis
 for UserInp in EmojiDict.items():
-    print()
+    print('what')
